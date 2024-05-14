@@ -229,13 +229,6 @@ body {
     color: #FFFFFF;
 }
 
-.webinar-main-bottom {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding-right: 3rem;
-}
-
 .webinar-main-bottom-direction {
     position: absolute;
     right: 0;
@@ -246,6 +239,12 @@ body {
 .webinar-main-old-price {
     font-size: 1rem;
     color: #FFFFFF;
+}
+
+.webinar-main-free {
+    font-size: 2.75rem;
+    font-weight: 600;
+    color: #F5CB72;
 }
 
 .webinar-main-hint strong {
@@ -262,6 +261,7 @@ body {
     font-weight: 600;
     line-height: 35px;
     background: radial-gradient(50% 46.6% at 50% 50%, #F5CB72 0%, #C8A14E 100%);
+    opacity: 1;
 }
 
 .webinar-telegram-button {
@@ -438,6 +438,14 @@ body {
     padding: 1rem;
 }
 
+.mobile-mentor-price-change {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+
 .mobile-mentor-inner .webinar-main-bottom {
     margin-top: -14rem;
     padding: 0 0.5rem;
@@ -492,7 +500,12 @@ body {
     }
 
     body {
+        background-color: #000000;
         background-image: none;
+    }
+
+    .webinar-main-title {
+        text-align: center;
     }
 
     .desktop-elements {
